@@ -1,4 +1,0 @@
-module full_subtractor(input a,b,c,output diff,borrow);
-assign diff=a^b^c;
-assign borrow=c&(~(a^b))|(~a&b);
-endmodule
