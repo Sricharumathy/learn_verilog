@@ -17,7 +17,7 @@ din=1'b0;#10;
 din=1'b1;#10;
 end
 initial begin
-$monitor("Time=%0t  clk=%b | rst=%b | din=%b | detected=%b ",$time,clk,rst,din,detected);
+$monitor("Time=%0t   rst=%b | din=%b | detected=%b ",$time,rst,din,detected);
 #90;
 $finish;
 end
